@@ -33,3 +33,8 @@ The project uses the Layoffs Dataset from Kaggle, containing information on 3,48
 - **Q1 2023** saw the highest global and U.S. layoff volume.
 - **Retail, Consumer, and Other Industries** had the highest global layoff counts.
 - **U.S.** led in total layoffs; San Francisco showed the highest city-level concentration.
+
+**📌 Conclusion & Strategic Recommendations:**
+
+- **✅ Conclusion:** Best Model is Decision tree (strong R² on train/test, best overall performance). Linear regression underperformed due to a non-linear data structure (low R², high MSE).
+- **🔁 Recommendations:** Tune Random Forest to reduce overfitting (train R² = 0.850 vs test R² = 0.238); apply cross-validation across all models for robustness.
