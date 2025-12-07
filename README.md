@@ -3,7 +3,7 @@
 **🧠 Overview:** 
 Explored and modeled layoff trends across industries, locations, and company stages using machine learning. Applied decision trees, random forests, and linear regression to uncover key predictors of layoffs and provide insights into workforce reduction patterns.
 
-**Data:**
+**📊Data:**
 The project uses the Layoffs Dataset from Kaggle, containing information on 3,485 individuals. This dataset includes fields such as Company Name, Location (City and Country), Industry, and Total Number of Layoffs. Three versions of the dataset were prepared for analysis:
 - layoff_data(3).csv: the original data from Kaggle.
 - layoff_clean.csv: A cleaned version of the original data with standardized fields and corrected entries.
